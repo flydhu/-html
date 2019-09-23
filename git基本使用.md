@@ -22,8 +22,10 @@ gedit id_rsa.pub
 ```
 vim 复制内容的方法
 在命令模式，光标覆盖在要复制的内容上，输入：”+y，三个字符。
+
 5. 复制公匙到github
-登录github—>Accounting settings图标->SSH key->Add SSH key->填写SSH key的名称，然后将复制的～/.ssh/id_rsa.pub文件内容粘贴->add key按钮添加。
+- 登录github—>Accounting settings图标->SSH key->Add SSH key->填写SSH key的名称，然后将复制的～/.ssh/id_rsa.pub文件内容粘贴->add key按钮添加。
+
 6. 测试git
 ```
 ssh -T git@github.com
