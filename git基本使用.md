@@ -12,6 +12,7 @@ git config --global user.email "邮箱"
 ssh-keygen -t rsa -C "邮箱“
 ```
 三次回车确认，不要输入密码
+
 4. 查看公匙
 ```
 cd ～/.ssh
