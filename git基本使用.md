@@ -27,3 +27,6 @@ ssh -T git@github.com
 	helper = store
 3.接着cd到项目目录，执行git push命令，会提示输入账号密码。输完这一次以后就不再需要，并且会在根目录生成一个.git-credentials文件。
 4.pull/push代码都不再需要输入账号密码了。
+
+# 创建git文件
+touch xxx
